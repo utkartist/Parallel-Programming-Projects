@@ -76,6 +76,7 @@ int calculateFitness(const Individual& individual) {
 }
 ```
 
-###ScreenShot
+### ScreenShot
+Here is a screenshot of the program output:
 ![Description of the image](./image.png)
 
