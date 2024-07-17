@@ -52,5 +52,7 @@ The project uses CUDA to parallelize the process of pattern matching in a text. 
 
 ## Example Output
 
+
+
 ## Conclusion
 This project showcases the use of CUDA for parallel pattern matching, highlighting the potential performance improvements that can be achieved with GPU programming. Further enhancements can include more complex pattern matching algorithms and performance optimizations.
