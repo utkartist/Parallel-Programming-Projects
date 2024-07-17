@@ -45,6 +45,7 @@ The project uses CUDA to parallelize the process of pattern matching in a text. 
 
 3. **Build and run the project:**
 - Click on the Start Debugging button (usually a green arrow or "Local Windows Debugger") in the toolbar.
+![Alt text](https://raw.githubusercontent.com/SuzenFirasta/Parallel-Programming-Projects/main/CUDA_Project/images/image2.png) 
 - Alternatively, press F5 to build and run the CUDA program in debug mode.
 
 4. **View the output:**
