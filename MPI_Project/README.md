@@ -45,29 +45,28 @@ The project uses MPI to parallelize the process of pattern matching in a text. T
 Apply the changes.
 ![Step1](https://github.com/kartabyakrishna/KartabyaKrishna/blob/main/Assets/mpi-setup/step1.gif)
 
-## 8. Set up the linker library
+- Set up the linker library
 
 Add `msmpi.lib` to the **Linker >> Input >> Additional Dependencies** . Remember to add a semicolon after `msmpi.lib`.
 ![Step2](https://github.com/kartabyakrishna/KartabyaKrishna/blob/main/Assets/mpi-setup/step2.gif)
 
-## 9. Additional Library Directories
+- Additional Library Directories
 
 Add the following to the **Linker >> General >> Additional Library Directories** :
 - For x64: `$(MSMPI_LIB64)`
 - For x86: `$(MSMPI_LIB32)`
 ![Step3](https://github.com/kartabyakrishna/KartabyaKrishna/blob/main/Assets/mpi-setup/step3.gif)
-## 10. Build the solution
+- Build the solution
 
 Build the solution (Build -> Build Solution).
 ![Build Solution](https://github.com/kartabyakrishna/KartabyaKrishna/blob/main/Assets/mpi-setup/build%20Soln.png)
 
-## 11. Test the program
+- Test the program
 
 To test or execute the program, go to the Debug directory and execute the following commands:
 
 ```bash
 mpiexec –n <number_of_processing_elements> ./<executable_file>
 ```
-![Build Soln](https://github.com/kartabyakrishna/KartabyaKrishna/blob/main/Assets/mpi-setup/output%20using%20mpiexec.png)
 
 Replace `<number_of_processing_elements>` and `<executable_file>` accordingly.
