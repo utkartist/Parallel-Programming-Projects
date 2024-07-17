@@ -70,3 +70,7 @@ mpiexec –n <number_of_processing_elements> ./<executable_file>
 ```
 
 Replace `<number_of_processing_elements>` and `<executable_file>` accordingly.
+
+## Conclusion
+
+This project showcases the use of MPI for parallel pattern matching, highlighting the potential performance improvements that can be achieved with distributed computing. Further enhancements can include more complex pattern matching algorithms and performance optimization
