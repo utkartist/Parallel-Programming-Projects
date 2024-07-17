@@ -52,7 +52,7 @@ The project uses CUDA to parallelize the process of pattern matching in a text. 
 
 ## Example Output
 
-![Alt text](https://github.com/)
+![Alt text]([https://github.com/](https://github.com/SuzenFirasta/Parallel-Programming-Projects/blob/main/CUDA_Project/images/image.png))
 
 
 ## Conclusion
