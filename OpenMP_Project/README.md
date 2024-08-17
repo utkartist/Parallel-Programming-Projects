@@ -1,1 +1,1 @@
-#GEneticAlogrithm
+# Genetic Alogrithm
